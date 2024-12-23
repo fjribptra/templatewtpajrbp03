@@ -11,20 +11,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Index - Toyota Astra Motor Template</title>
+    <title>Home - Toyota Astra Motor Template</title>
 </head>
-<style>
-
-</style>
 
 <body class="font-sans">
     <header class="sticky z-50 top-0 right-0 left-0 bg-red-500 z-[9999]">
         <div
             class="w-full container mx-auto flex justify-between items-center px-5 py-5 xl:px-20 bg-transparent text-black opacity-100">
 
-            <div>
+            <a href="/">
                 <img src="./assets/img/logo-white.png" alt="logo" class="w-[150px]">
-            </div>
+            </a>
             <div class="hamburger-menu relative flex flex-col justify-between gap-1 sm:hidden cursor-pointer">
                 <span class="bg-white w-6 h-1 rounded-md"></span>
                 <span class="bg-white w-6 h-1 rounded-md"></span>
@@ -33,10 +30,11 @@
             <nav
                 class="hidden navigation z-99 fixed top-0 left-0 right-0 bottom-0 bg-red-500 p-5 sm:static sm:block sm:bg-transparent sm:p-0">
                 <ul
-                    class="flex flex-col p-5 h-full bg-transparent opacity-100 text-white gap-4 rounded-xl sm:flex-row sm:p-0 transition-all">
+                    class="flex flex-col p-5 h-full bg-transparent opacity-100 text-white gap-4 rounded-xl sm:flex-row sm:p-0 transition-all uppercase">
                     <li><a href="index.html" class="nav-link hover:underline ease-linear">Home</a></li>
                     <li><a href="#about" class="nav-link hover:underline ease-linear">About</a></li>
                     <li><a href="#team" class="nav-link hover:underline ease-linear">Team</a></li>
+                    <li><a href="#carList" class="nav-link hover:underline ease-linear">Car List</a></li>
                     <li><a href="#contact" class="nav-link hover:underline ease-linear">Contact</a></li>
                 </ul>
                 <button
@@ -53,7 +51,7 @@
                 <h1 class="text-4xl z-[999]  font-bold lg:text-6xl 2xl:text-7xl opacity-100">Kaizen continuous improvement
                 </h1>
                 <p class="lg:text-xl z-[999] 2xl:text-2xl"> Toyota's rich history, commitment to excellence, and forward-thinking approach make it much more than just an automotive manufacturer – it's a symbol of innovation, reliability, and sustainability in an ever-evolving world.</p>
-                <a href="#pricing"
+                <a href="#carList"
                     class="z-[999] w-fit bg-red-500 text-white px-5 py-3 rounded-md hover:bg-white hover:text-black transition-all ease-in 2xl:text-xl">Car List</a>
             </div>
             <div class="z-[999] w-full h-full flex flex-col gap-5 justify-center">
@@ -105,60 +103,60 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="carList">
         <div
             class="container mx-auto flex flex-col justify-center items-center px-5 xl:px-20 py-20 gap-7 text-center text-black">
             <h1 class="text-4xl lg:text-5xl font-bold">Toyota News Update</h1>
             <h2 class="lg:text-xl 2xl:text-2xl">Toyota has been at the forefront of automotive innovation, introducing numerous groundbreaking technologies over the years. From hybrid-electric vehicles (HEVs) like the Prius, which revolutionized the industry’s approach to fuel efficiency</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                <div class="rounded-md shadow-lg cursor-pointer">
+                <a href="./camry-hybrid.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/01_attitude-black_1.png" alt="camry hybrid">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Camry Hybrid</h2>
                     </div>
-                </div>
-                <div class="rounded-md shadow-lg cursor-pointer">
+                </a>
+                <a href="./yaris-gr.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/2-Emotional-Red.png" alt="yaris gr">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Yaris GR</h2>
                     </div>
-                </div>
-                <div class="rounded-md shadow-lg cursor-pointer">
+                </a>
+                <a href="./alphard.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/2-Black.png" alt="alphard">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Alphard</h2>
                     </div>
-                </div>
-                <div class="rounded-md shadow-lg cursor-pointer">
+                </a>
+                <a href="./yaris-cross.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/2-Platinum-White-Pearl-Attitude-Black.png" alt="yaris cross">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Yaris Cross</h2>
                     </div>
-                </div>
-                <div class="rounded-md shadow-lg cursor-pointer">
+                </a>
+                <a href="./corolla-cross.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/1-Dual-Tone-Attitude-Black-MC-Platinum-White-Pearl.png" alt="corolla cross">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Corolla Cross</h2>
                     </div>
-                </div>
-                <div class="rounded-md shadow-lg cursor-pointer">
+                </a>
+                <a href="./land-crusier.html" class="rounded-md shadow-lg cursor-pointer">
                     <div class="bg-slate-100">
                         <img src="./assets/img/01-gray-metallic-vx-r-type.png" alt="land crusier">
                     </div>
                     <div class="p-5 flex items-start">
                         <h2 class="font-bold text-2xl">Land Crusier</h2>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -309,7 +307,7 @@
     </footer>
     <div class="p-10 bg-slate-100 text-center">
         <h2>Copyright &copy; 2024. All Rights Reserved</h2>
-        <p>Developed By <a href="https://instagram.com/pajri.bp" class="font-semibold text-sky-600">@pajri.bp</a></p>
+        <p>Developed By <a href="https://github.com/fjribptra" class="font-semibold text-sky-600">@fjribptra</a></p>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/navigation.js" defer></script>
